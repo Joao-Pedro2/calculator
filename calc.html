@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calc</title>
+  <link rel="stylesheet" href="./calc.css">
+  <script src="./calculator.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="" alt="">
+      <h1>João Pedro</h1>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="calc">
+        <h2>Calculadora</h2>
+        <p id="view"></p>
+        <button class="btn" onclick="clean()">C</button>
+        <button class="btn" onclick="back()"><</button>
+        <button class="btn" onclick="insert('/')">/</button>
+        <button class="btn" onclick="insert('*')">*</button>
+        <button class="btn" onclick="insert('7')">7</button>
+        <button class="btn" onclick="insert('8')">8</button>
+        <button class="btn" onclick="insert('9')">9</button>
+        <button class="btn" onclick="insert('-')">-</button>
+        <button class="btn" onclick="insert('4')">4</button>
+        <button class="btn" onclick="insert('5')">5</button>
+        <button class="btn" onclick="insert('6')">6</button>
+        <button class="btn" onclick="insert('+')">+</button>
+        <button class="btn" onclick="insert('1')">1</button>
+        <button class="btn" onclick="insert('2')">2</button>
+        <button class="btn" onclick="insert('3')">3</button>
+        <button class="btn" id="start" onclick = "calculate()">=</button>
+        <button class="btn" id="start2" onclick = "insert('0')">0</button>
+        <button class="btn" onclick = "insert('.')">.</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
